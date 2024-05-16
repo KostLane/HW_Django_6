@@ -1,0 +1,18 @@
+{% extends 'hw5app/base.html' %}
+{% block title %}
+{{ title }}
+{% endblock %}
+{% block content %}
+
+<p>Введите ID клиента:</p>
+
+<input type="text" id="client_id" name="client_id">
+<button onclick="redirectToClient()">Перейти</button>
+
+<script>
+function redirectToClient() {
+  var clientId = document.getElementById("client_id").value;
+  window.location.href = clientId;
+}
+</script>
+{% endblock %}
