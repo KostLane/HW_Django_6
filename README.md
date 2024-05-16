@@ -16,3 +16,4 @@
 ![дз2](https://github.com/KostLane/HW_Django_6/assets/151477931/66a2c3a3-8d9d-483e-b7b3-7960a93209ba)
 
 При проверке можем найти наших 3-х пользователей по ID от 1 до 3.
+Главная страница тестового сайта https://kostlane.pythonanywhere.com/
